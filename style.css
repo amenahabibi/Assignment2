@@ -1,0 +1,79 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Verdanava, Geneva, Tahoma, sans-serif; */
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdith" 100;
+}
+
+.container {
+    width: 100%;
+    height: 50px;
+    background: black;
+}
+.card-container {
+    padding: 10px 10px;
+    margin: 20px;
+}
+.card-text{
+    color: white;
+   text-align: center;
+}
+.container-border {
+    width: 800px;
+    height: 500px;
+    border: 2px solid red;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: black;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.theater-title {
+    text-align: center;
+    color: white;
+}
+.movie-title{
+    text-align: center;
+    color: white;
+}
+video {
+    width: 60%;
+    height:auto;
+    margin-left: 160px;
+   
+}
+.name-title {
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+   text-shadow: 2px 2px 4px yellow;
+}
+.btn {
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 10px;
+  
+}
+.shap-center{
+    text-align: center;
+}
+.btn-primary {
+    background: linear-gradient(to right, #ff9900, #ffcc00);
+    color: #000;
+}
+.btn-secondary {
+    background: linear-gradient(to right, #ff9900, #ffcc00);
+    color: #000;
+}
+.btn-primary:hover{
+    background: #ff9900;
+}
+.btn-secondary:hover{
+    background: #ff9900;
+}
